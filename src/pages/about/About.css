@@ -1,6 +1,5 @@
 .about-content {
   width: 80%;
-  /* height: 40%; */
   display: flex;
   margin: 2% auto;
 }
@@ -35,10 +34,6 @@
 
 /* ---------------Tablets---------------- */
 @media (max-width: 768px) {
-  .about {
-    /* height: 110vh; */
-  }
-
   .about-content {
     height: 100%;
     align-items: center;
@@ -56,9 +51,6 @@
 /* --------------------Phone---------------- */
 
 @media (max-width: 431px) {
-  .about {
-    /* height: 115vh; */
-  }
   .about-text-box {
     margin: 0;
     width: 260px;

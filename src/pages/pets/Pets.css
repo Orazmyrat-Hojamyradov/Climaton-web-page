@@ -1,14 +1,12 @@
 .pets {
   width: 100%;
   position: relative;
-  /* height: 80vh; */
   background-color: #f6f6f6;
   z-index: 1;
 }
 .pets-content {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
   justify-content: space-between;
   margin: 2rem auto;
 }
@@ -27,11 +25,8 @@
 
 .cards {
   margin: 2rem;
-  /* display: flex; */
-  /* justify-content: space-between; */
   align-items: center;
   text-align: center;
-  /* width: 100vw; */
   height: 300px;
 }
 

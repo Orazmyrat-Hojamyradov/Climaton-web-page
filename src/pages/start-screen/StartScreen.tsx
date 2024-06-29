@@ -3,7 +3,7 @@ import HeaderNav from "../../components/header/HeaderNav";
 import Puppy from "../../images/start-screen-puppy.png";
 import "./StartScreen.css";
 
-const StartScreen = () => {
+export default function StartScreen() {
   return (
     <div className="start-screen" id="Start">
       <HeaderNav />
@@ -23,11 +23,8 @@ const StartScreen = () => {
             </Link>
           </button>
         </div>
-
         <img className="start-screen-image" src={Puppy} alt="puppy" />
       </div>
     </div>
   );
-};
-
-export default StartScreen;
+}

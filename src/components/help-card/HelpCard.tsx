@@ -1,18 +1,15 @@
-import React from "react";
 import "./HelpCard.css";
 
-interface HelpProps {
+type HelpProps = {
   title: string;
   image: string;
-}
-
-const HelpCard: React.FC<HelpProps> = (props) => {
-  return (
-    <div className="helpCard">
-      <img className="help-card-icon" src={props.image} alt="icon" />
-      <p className="icon_name">{props.title}</p>
-    </div>
-  );
 };
 
-export default HelpCard;
+export default function HelpCard({ image, title }: HelpProps) {
+  return (
+    <div className="helpCard">
+      <img className="help-card-icon" src={image} alt="icon" />
+      <p className="icon_name">{title}</p>
+    </div>
+  );
+}

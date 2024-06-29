@@ -1,9 +1,7 @@
-import React from "react";
 import DonationDog from "../../images/donation-dog.png";
 import "./Donation.css";
 
-const Donation = () => {
-  const icon = <i className="fa-solid fa-credit-card"></i>;
+export default function Donation() {
   return (
     <div className="donation" id="Donation">
       <div className="donation-content">
@@ -27,6 +25,4 @@ const Donation = () => {
       </div>
     </div>
   );
-};
-
-export default Donation;
+}

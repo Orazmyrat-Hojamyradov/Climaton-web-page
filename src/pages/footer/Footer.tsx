@@ -2,7 +2,7 @@ import footerPuppy from "./footer-puppy.png";
 import FooterInfo from "../../components/footer/FooterInfo";
 import "./Footer.css";
 
-const Footer = () => {
+export default function Footer() {
   return (
     <div className="footer" id="Contacts">
       <div className="footer-content">
@@ -36,6 +36,4 @@ const Footer = () => {
       </div>
     </div>
   );
-};
-
-export default Footer;
+}

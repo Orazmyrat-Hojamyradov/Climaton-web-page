@@ -1,7 +1,7 @@
 import pet from "../../images/about-pets.png";
 import "./About.css";
 
-const About = () => {
+export default function About() {
   return (
     <div className="about" id="About">
       <div className="about-content">
@@ -29,5 +29,3 @@ const About = () => {
     </div>
   );
 };
-
-export default About;

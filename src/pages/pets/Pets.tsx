@@ -2,7 +2,7 @@ import "./Pets.css";
 import "../../components/card/Card.css";
 import CarouselPets from "../../components/carousel/CarouselPets.tsx";
 
-const Pets = () => {
+export default function Pets() {
   return (
     <div className="pets" id="Pets">
       <div className="pets-content">
@@ -14,6 +14,4 @@ const Pets = () => {
       </div>
     </div>
   );
-};
-
-export default Pets;
+}
