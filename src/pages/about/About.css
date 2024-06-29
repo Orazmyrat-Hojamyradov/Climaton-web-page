@@ -1,0 +1,78 @@
+.about-content {
+  width: 80%;
+  /* height: 40%; */
+  display: flex;
+  margin: 2% auto;
+}
+.about-image {
+  margin: auto;
+  width: 300px;
+  max-width: 100%;
+  height: 350px;
+}
+
+.about-text-box {
+  width: 60%;
+  height: 40%;
+}
+
+.about-title {
+  color: #545454;
+  font-family: Georgia;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  letter-spacing: 0.06em;
+  margin: 15px;
+  max-width: 350px;
+}
+.about-subtitle {
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* ---------------Tablets---------------- */
+@media (max-width: 768px) {
+  .about {
+    /* height: 110vh; */
+  }
+
+  .about-content {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .about-text-box {
+    margin: auto;
+  }
+  .about-title {
+    font-size: 34px;
+  }
+}
+
+/* --------------------Phone---------------- */
+
+@media (max-width: 431px) {
+  .about {
+    /* height: 115vh; */
+  }
+  .about-text-box {
+    margin: 0;
+    width: 260px;
+    height: max-content;
+  }
+  .about-title {
+    margin: 0;
+    font-size: 25px;
+    line-height: 32.5px;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+  .about-image {
+    width: 225px;
+    height: auto;
+  }
+}

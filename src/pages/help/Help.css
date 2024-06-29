@@ -1,0 +1,60 @@
+.help-content {
+  margin: auto;
+  width: 85%;
+  height: 100%;
+}
+
+.help-title {
+  font-family: Georgia;
+  font-size: 35px;
+  font-weight: 400;
+  color: #545454;
+  line-height: 45.5px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  width: 20rem;
+  margin: auto;
+}
+
+.help-cards {
+  width: 70%;
+  /* max-width: 91%; */
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+.icon-name {
+  line-break: 5px;
+}
+
+@media (max-width: 992px) {
+  .help-cards {
+    width: 100%;
+  }
+}
+
+/* ---------------Tablets------------- */
+@media (max-width: 768px) {
+  .help-content {
+    width: 80%;
+  }
+}
+
+/* --------------------Phone---------------- */
+
+@media (max-width: 431px) {
+  .helpCard {
+    width: 85px;
+  }
+  .help-title {
+    width: 18rem;
+    margin-bottom: 1rem;
+
+    font-size: 25px;
+    line-height: 32.5px;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+}

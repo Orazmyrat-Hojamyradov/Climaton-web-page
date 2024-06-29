@@ -1,0 +1,20 @@
+.footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 300px;
+  height: 100px;
+}
+.contacts-img {
+  padding: 3px;
+}
+.contacts-name {
+  font-family: Georgia;
+  font-size: 19px;
+  font-weight: 400;
+  color: #f1cdb3;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin: 10px;
+}

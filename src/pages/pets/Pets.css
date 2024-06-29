@@ -1,0 +1,91 @@
+.pets {
+  width: 100%;
+  position: relative;
+  /* height: 80vh; */
+  background-color: #f6f6f6;
+  z-index: 1;
+}
+.pets-content {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+.pets-title {
+  width: 50%;
+  height: fit-content;
+  margin: 1rem auto;
+  font-family: Georgia;
+  font-size: 35px;
+  font-weight: 400;
+  color: #545454;
+  line-height: 45.5px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.cards {
+  margin: 2rem;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  align-items: center;
+  text-align: center;
+  /* width: 100vw; */
+  height: 300px;
+}
+
+.more {
+  width: 261px;
+  height: 52px;
+  margin: 3rem auto;
+  padding: 1rem;
+  text-align: center;
+  border: none;
+  border-radius: 100px;
+  color: #292929;
+  background-color: #f1cdb3;
+  font-family: Georgia;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22.1px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  transition: linear background-color 0.3s;
+  cursor: pointer;
+}
+
+.more:hover {
+  background-color: #fddcc4;
+}
+
+.nav-card {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #f1cdb3;
+  border-radius: 100%;
+  transition: linear background-color 0.3s;
+}
+
+.nav-card:hover {
+  background-color: #fddcc4;
+}
+
+/* --------------------Phone---------------- */
+
+@media (max-width: 431px) {
+  .pets-title {
+    width: 95%;
+    font-size: 25px;
+    line-height: 32.5px;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+}
+
+@media (max-width: 431px) {
+  .about-title {
+    margin-top: 5rem;
+    margin-left: -1rem;
+  }
+}
