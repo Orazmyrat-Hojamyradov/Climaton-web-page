@@ -49,7 +49,7 @@ export default function HeaderNavMobile() {
               to="Contacts"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-100}
               className="link"
             >
               Contacts

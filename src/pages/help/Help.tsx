@@ -9,7 +9,7 @@ export default function Help() {
         <h2 className="help-title">How you can help our shelter</h2>
         <div className="help-cards">
           {HelpCardData.map((data) => (
-            <HelpCard title={data.title} image={data.image} />
+            <HelpCard key={data.id} title={data.title} image={data.image} />
           ))}
         </div>
       </div>
