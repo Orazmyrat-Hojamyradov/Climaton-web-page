@@ -6,7 +6,7 @@ export default function AllPets() {
   return (
     <div className="all-pets">
       <h2 className="all-pets-title">All pets in Climaton</h2>
-      <div className="cards">
+      <div className="all-pets-cards">
         {CardData.map((card) => (
           <Card key={card.id} title={card.title} image={card.image} />
         ))}
