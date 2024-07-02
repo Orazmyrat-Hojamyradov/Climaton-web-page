@@ -4,7 +4,7 @@ import Pets from "./pages/pets/Pets";
 import Help from "./pages/help/Help";
 import Donation from "./pages/donation/Donation";
 import Footer from "./pages/footer/Footer";
-import AllPets from "./pages/all_pets/AllPets";
+import AllPets from "./pages/all-pets/AllPets";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
