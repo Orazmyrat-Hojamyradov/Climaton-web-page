@@ -1,4 +1,4 @@
-import footerPuppy from "./footer-puppy.png";
+import footerPuppy from "/images/footer-puppy.png";
 import FooterInfo from "../../components/footer/FooterInfo";
 import "./Footer.css";
 
@@ -12,22 +12,22 @@ export default function Footer() {
               <h2 className="contacts-title">For questions and suggestions</h2>
               <FooterInfo
                 contact="email@shelter.com"
-                icon={"./src/components/footer/icons/icon-email.png"}
+                icon={"/icons/icon-email.png"}
               />
               <FooterInfo
                 contact="+13 674 567 75 54"
-                icon={"./src/components/footer/icons/icon-phone.png"}
+                icon={"/icons/icon-phone.png"}
               />
             </div>
             <div className="location">
               <h2 className="contacts-title">We are waiting for your visit</h2>
               <FooterInfo
                 contact="1 Central Street, Boston (entrance from the store)"
-                icon={"./src/components/footer/icons/icon-marker.png"}
+                icon={"/icons/icon-marker.png"}
               />
               <FooterInfo
                 contact="18 South Park, London"
-                icon={"./src/components/footer/icons/icon-marker.png"}
+                icon={"/icons/icon-marker.png"}
               />
             </div>
           </div>

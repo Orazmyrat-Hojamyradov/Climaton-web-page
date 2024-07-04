@@ -1,4 +1,4 @@
-import DonationDog from "../../images/donation-dog.png";
+import DonationDog from "/images/donation-dog.png";
 import "./Donation.css";
 
 export default function Donation() {

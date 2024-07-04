@@ -12,18 +12,7 @@
   .header-nav {
     position: fixed;
     height: 80px;
-    background-image: linear-gradient(
-      to right,
-      #534434,
-      #4c3c33,
-      #443c31,
-      #3e332c,
-      #342c24,
-      #2c2c24,
-      #2c2424,
-      #332c2c,
-      #232223
-    );
+    background-image: url(images/start-screen-gradient-background.png);
   }
 
   .header-nav-box-mobile {

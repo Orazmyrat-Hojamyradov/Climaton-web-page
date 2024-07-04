@@ -1,6 +1,5 @@
 import { Link } from "react-scroll";
 import "./HeaderNavMobile.css";
-// import "./HeaderNav.css";
 
 export default function HeaderNavMobile() {
   return (

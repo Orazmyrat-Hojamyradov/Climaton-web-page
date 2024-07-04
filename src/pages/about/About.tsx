@@ -1,4 +1,4 @@
-import pet from "../../images/about-pets.png";
+import pet from "/images/about-pets.png";
 import "./About.css";
 
 export default function About() {
