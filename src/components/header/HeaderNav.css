@@ -4,7 +4,8 @@
 }
 
 .header-nav {
-  background-image: url(images/start-screen-gradient-background.png);
+  background: url(images/start-screen-gradient-background.png) no-repeat;
+  background-size: cover;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -66,6 +67,12 @@
   color: #fafafa;
   text-decoration: underline 2px #f1cdb3;
   text-underline-offset: 5px;
+}
+
+@media (max-width:1200px) {
+  .header-nav{
+    background-size: unset;
+  }
 }
 
 @media (min-width: 430px) and (max-width: 650px) {

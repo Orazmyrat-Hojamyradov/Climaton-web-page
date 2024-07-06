@@ -6,6 +6,7 @@ import "./StartScreen.css";
 export default function StartScreen() {
   return (
     <div className="start-screen" id="Start">
+      {/* <img src="images/start-screen-gradient-background.png" alt="" className="background-image" /> */}
       <HeaderNav />
       <div className="start-screen-content">
         <div className="content">
