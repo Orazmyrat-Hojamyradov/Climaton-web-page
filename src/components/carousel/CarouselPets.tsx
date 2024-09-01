@@ -26,7 +26,13 @@ const responsive = {
 export default function CarouselPets() {
   return (
     <div>
-      <Carousel responsive={responsive}>
+      <Carousel
+        autoPlay
+        autoPlaySpeed={1700}
+        keyBoardControl
+        pauseOnHover
+        responsive={responsive}
+      >
         {CardData.map((card) => (
           <Card key={card.id} title={card.title} image={card.image} />
         ))}

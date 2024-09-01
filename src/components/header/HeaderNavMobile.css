@@ -89,7 +89,7 @@
 
   .menuToggle input:checked ~ span {
     opacity: 1;
-    transform: rotate(45deg) translate(-3px, -1px);
+    transform: rotate(45deg) translate(-7px, 0);
     background: #f1cdb3;
   }
   .menuToggle input:checked ~ span:nth-last-child(3) {
@@ -98,7 +98,7 @@
   }
 
   .menuToggle input:checked ~ span:nth-last-child(2) {
-    transform: rotate(-45deg) translate(0, -1px);
+    transform: rotate(-45deg) translate(0, -7px);
   }
 
   .menu {

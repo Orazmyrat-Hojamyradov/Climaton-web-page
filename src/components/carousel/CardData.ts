@@ -43,7 +43,7 @@ export const CardData: CardData[] = [
   {
     id: 8,
     title: `Jennifer`,
-    image: `1.png`,
+    image: `images/1.png`,
   },
   {
     id: 9,
