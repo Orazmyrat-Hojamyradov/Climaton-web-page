@@ -4,7 +4,7 @@
 }
 
 .header-nav {
-  background: url(images/start-screen-gradient-background.webp) no-repeat;
+  background: url(/images/start-screen-gradient-background.png) no-repeat;
   background-size: cover;
   width: 100%;
   display: flex;

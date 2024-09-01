@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 import HeaderNav from "../../components/header/HeaderNav";
-import Puppy from "/images/start-screen-puppy.png";
+import Puppy from "/images/puppy.png";
 import "./StartScreen.css";
 
 export default function StartScreen() {
