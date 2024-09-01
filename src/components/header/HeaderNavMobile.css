@@ -12,8 +12,7 @@
   .header-nav {
     position: fixed;
     height: 80px;
-    background: url(images/start-screen-gradient-background.png) no-repeat;
-    /* background-size: cover; */
+    background: url(/images/start-screen-gradient-background.png) no-repeat;
   }
 
   .header-nav-box-mobile {
