@@ -59,10 +59,9 @@
   margin-bottom: 1rem;
 }
 
-.donation-input i {
-  padding: 10px;
-  position: relative;
-  top: 50%;
+.icon-donation {
+  margin-right: 10px;
+  color: #545454;
 }
 
 .donation-input input {

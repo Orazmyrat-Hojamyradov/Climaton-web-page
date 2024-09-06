@@ -13,7 +13,11 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@splidejs/react-splide": "^0.7.12",
     "@types/react-scroll": "^1.8.10",
+    "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.2.1",
+    "lucide-react": "^0.439.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-multi-carousel": "^2.8.5",

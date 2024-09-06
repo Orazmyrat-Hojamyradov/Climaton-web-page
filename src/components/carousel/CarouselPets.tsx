@@ -26,7 +26,12 @@ const responsive = {
 export default function CarouselPets() {
   return (
     <div>
-      <Carousel keyBoardControl pauseOnHover responsive={responsive}>
+      <Carousel
+        removeArrowOnDeviceType="mobile, tablets"
+        keyBoardControl
+        pauseOnHover
+        responsive={responsive}
+      >
         {CardData.map((card) => (
           <Card key={card.id} title={card.title} image={card.image} />
         ))}

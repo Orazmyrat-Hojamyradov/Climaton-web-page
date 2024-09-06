@@ -1,5 +1,6 @@
 import DonationDog from "/images/donation-dog.png";
 import "./Donation.css";
+import { CreditCard } from "lucide-react";
 
 export default function Donation() {
   return (
@@ -12,7 +13,7 @@ export default function Donation() {
             Name of the bank / Type of bank account
           </p>
           <div className="donation-input">
-            <i className="fa-solid fa-credit-card"></i>
+            <CreditCard className="icon-donation" />
             <input type="text" placeholder="8380 2880 8028 8791 7435" />
           </div>
           <div className="donation-text-container">
