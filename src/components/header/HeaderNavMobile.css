@@ -80,26 +80,28 @@
       background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   }
 
-  .menuToggle span:first-child {
+  .menuToggle span:nth-last-child(4) {
+    width: 15px;
     transform-origin: 0% 0%;
   }
 
   .menuToggle span:nth-last-child(2) {
+    align-self: flex-end;
+    width: 15px;
     transform-origin: 0% 100%;
   }
 
   .menuToggle input:checked ~ span {
     opacity: 1;
-    transform: rotate(45deg);
+    transform: rotate(45deg) translateX(5px);
     background: #f1cdb3;
   }
   .menuToggle input:checked ~ span:nth-last-child(3) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
+    transform: rotate(-45deg) translateX(-9px) translateY(8px);
   }
 
   .menuToggle input:checked ~ span:nth-last-child(2) {
-    transform: rotate(-45deg);
+    transform: rotate(45deg) translateX(-5px);
   }
 
   .menu {
